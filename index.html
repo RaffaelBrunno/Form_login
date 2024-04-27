@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="shortcut icon" href="form-login.ico" type="image/x-icon">
+    <title>Window login</title>
+</head>
+
+<body>
+
+    <video autoplay muted loop id="myVideo">
+        <source src="video2.mp4" type="video/mp4">
+    </video>
+
+    <div class="container">
+        <div class="box">
+            <div class="title">
+                <h1>Login</h1>
+            </div>
+
+            <!-- Icon Social Media -->
+            <div class="social_media">
+                <a href="#"><i class="fa-brands fa-facebook fa-bounce fa-xl" style="color: #ffffff;"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram fa-bounce fa-xl" style="color: #ffffff;"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin fa-bounce fa-xl" style="color: #ffffff;"></i></a>
+            </div>
+            <!-- Icon Social Media -->
+
+            <!-- Form  Login-->
+            <div class="form">
+                <label for="name">Name:</label>
+                <div class="container-input">
+                    <i class="fa-solid fa-user" style="color: #ffffff;"></i>
+                    <input type="text">
+                </div>
+                <label for="password">Password:</label>
+                <div class="container-input">
+                    <i class="fa-solid fa-lock" style="color: #ffffff;"></i>
+                    <input type="password">
+                </div>
+                <p onclick="forgot()" class="forgot-password"><a href="#">Forgot password?</a></p>
+            </div>
+            <div>
+                <button onclick="login()"><a href="#">Acessar</a></button>
+            </div>
+        </div>
+            <!-- Form  Login-->
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
