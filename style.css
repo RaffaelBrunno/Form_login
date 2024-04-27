@@ -57,6 +57,7 @@ input:focus{
 input {
     background: transparent;
     color: white;
+    padding-left: 10px;
     border: none;
     font-size: 1.2em;
     border-bottom: 2px solid #710199;
